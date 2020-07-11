@@ -18,8 +18,8 @@ yum install nginx -y &> /dev/null
 STATUS $? "WEBSERVER INSTALLATION"
 
 systemctl enable nginx
-
-exit 1
+ 
+exit 124 
 
 STATUS $? "ENABLING NGINX SERVICE"
 
