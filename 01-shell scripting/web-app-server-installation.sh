@@ -48,8 +48,8 @@ STATUS $? "DOWNLOADING TOMCAT"
 chown $APPUSER:$APPUSER /home/$APPUSER -R 
 
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/tomcat.service -o /etc/systemd/system/tomcat.service
-chmod +x /etc/init.d/tomcat
-systemctl 
+chmod +x /etc/systemd/system/tomcat.service
+systemctl start tomcat
 
 STATUS $? "STARTING TOMCAT"
 
