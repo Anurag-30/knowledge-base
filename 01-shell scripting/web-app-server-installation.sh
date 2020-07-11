@@ -47,7 +47,7 @@ STATUS $? "DOWNLOADING TOMCAT"
 
 chown $APPUSER:$APPUSER /home/$APPUSER -R 
 
-sh /home/$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
+
 
 STATUS $? "STARTING TOMCAT"
 
