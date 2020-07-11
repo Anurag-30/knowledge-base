@@ -18,8 +18,8 @@ Environment="CATALINA_BASE=/var/tomcat/%i/"
 Environment="CATALINA_HOME=/opt/tomcat/"
 Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
 
-ExecStart=/opt/tomcat/bin/startup.sh
-ExecStop=/opt/tomcat/bin/shutdown.sh
+ExecStart=/home/appuser/apache-tomcat-8.5.49/bin/startup.sh
+ExecStop=/home/appuser/apache-tomcat-8.5.49/bin/shutdown.sh
 
 #RestartSec=10
 #Restart=always
