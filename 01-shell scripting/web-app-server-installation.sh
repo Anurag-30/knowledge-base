@@ -49,7 +49,7 @@ sh /home/$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
 
 STATUS $? "STARTING TOMCAT"
 
-HEADING ""
+HEADING "CONFIGURING WEB SERVER TO SERVER CONET"
 
  
 
