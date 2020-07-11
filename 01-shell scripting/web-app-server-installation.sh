@@ -7,6 +7,7 @@ STATUS() {
      then
        echo "$1 installation is successful"
     else
+       echo "$1 installation is not successful"
        
 }
 HEADING "WEBSERVER-INSTALLATION"
