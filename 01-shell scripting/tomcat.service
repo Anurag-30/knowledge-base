@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=appuser
-ExecStart=/usr/bin/sh php /path/to/server.php
+ExecStart=/usr/bin/sh /home/appuser/
 
 [Install]
 WantedBy=multi-user.target
