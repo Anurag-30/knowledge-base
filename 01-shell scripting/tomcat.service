@@ -6,7 +6,7 @@ After=syslog.target network.target
 Type=forking
 
 User=appuser
-Group=tomcat
+Group=appuser
 
 WorkingDirectory=/var/tomcat/%i
 
