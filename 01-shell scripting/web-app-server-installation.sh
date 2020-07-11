@@ -49,6 +49,8 @@ chown $APPUSER:$APPUSER /home/$APPUSER -R
 
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/tomcat.service -o /etc/systemd/system/tomcat.service
 
+systemctl 
+
 STATUS $? "STARTING TOMCAT"
 
 HEADING "CONFIGURING WEB SERVER TO SERVER CONTENT OF APP SERVER"
