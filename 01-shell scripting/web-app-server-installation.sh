@@ -1,36 +1,49 @@
+APPUSER=appuser
 HEADING(){
     echo -e "\e[33m$1\e[0m\n"
 }
 
 STATUS() {
-    if [ $? == 0 ]
+    if [ $1 == 0 ]
      then
-       echo -e "\e[32m $1 IS SUCCESSFUL\e[0m\n" 
+       echo -e "\e[32m $2 IS SUCCESSFUL\e[0m\n" 
      else
-       echo -e "\e[31m $1 IS NOT SUCCESSFUL\e[0m\n" 
+       echo -e "\e[31m $2 IS NOT SUCCESSFUL\e[0m\n" 
     fi  
 }
 HEADING "WEBSERVER-INSTALLATION"
 
 yum install nginx -y &> /dev/null
 
-STATUS "WEBSERVER INSTALLATION"
+STATUS $? "WEBSERVER INSTALLATION"
 
 systemctl enable nginx
 
-STATUS "ENABLING NGINX SERVICE"
+exit 1
+
+STATUS $? "ENABLING NGINX SERVICE"
 
 systemctl start nginx
 
-STATUS "NGINX SERVICE START"
+STATUS $? "NGINX SERVICE START"
+
+HEADING "APP SERVER INSTALLATION"
 
 yum install java -y &> /dev/null
 
-STATUS "JAVA INSTALLATION"
+STATUS $? "JAVA INSTALLATION"
 
+id $APPUSER
+if [ $? -ne 0 ]; then
+   useradd $APPUSER
+fi
+
+cd /home/$APPUSER
 curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz | tar -xz
 
-STATUS "DOWNLOADING TOMCAT"
+STATUS $? "DOWNLOADING TOMCAT"
+
+
 
 
 
