@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=appuser
-ExecStart=/usr/bin/sh /home/appuser/apache-tomcat-8.5.49/bin/startup.sh
+ExecStart=/home/appuser/apache-tomcat-8.5.49/bin/startup.sh
 
 
 [Install]
