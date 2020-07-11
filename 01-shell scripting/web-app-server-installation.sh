@@ -32,7 +32,7 @@ yum install java -y &> /dev/null
 
 STATUS $? "JAVA INSTALLATION"
 
-id $APPUSER
+id $APPUSER &> /dev/null
 
 if [ $? -ne 0 ]; then
   useradd $APPUSER
@@ -45,7 +45,7 @@ curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomca
 
 STATUS $? "DOWNLOADING TOMCAT"
 
-sh /$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
+sh /home/$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
 
 STATUS $? "STARTING TOMCAT"
 
