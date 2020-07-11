@@ -24,6 +24,9 @@ systemctl start nginx
 
 STATUS "NGINX SERVICE START"
 
+yum install java -y &> /dev/null
+
+STATUS 
 
 
 
