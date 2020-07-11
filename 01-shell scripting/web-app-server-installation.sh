@@ -5,14 +5,18 @@ HEADING(){
 STATUS() {
     if [ $? == 0 ]
      then
-       echo -e "$1 \e[32m INSTALLATION IS SUCCESSFUL\e[0m\n" 
+       echo -e "\e[32m $1 IS SUCCESSFUL\e[0m\n" 
      else
-       echo -e "$1 \e[31m INSTALLATION IS NOT SUCCESSFUL\e[0m\n" 
+       echo -e "\e[31m $1 IS NOT SUCCESSFUL\e[0m\n" 
     fi  
 }
 HEADING "WEBSERVER-INSTALLATION"
 
 yum install nginx -y &> /dev/null
 
-STATUS WEBSERVER
+STATUS "WEBSERVER INSTALLATION"
+
+systemctl start nginx
+
+STATUS "NGINX SERVICE START"
 
