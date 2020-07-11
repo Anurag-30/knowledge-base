@@ -16,7 +16,15 @@ yum install nginx -y &> /dev/null
 
 STATUS "WEBSERVER INSTALLATION"
 
+systemctl enable nginx
+
+STATUS "ENABLING NGINX SERVICE"
+
 systemctl start nginx
 
 STATUS "NGINX SERVICE START"
+
+
+
+
 
