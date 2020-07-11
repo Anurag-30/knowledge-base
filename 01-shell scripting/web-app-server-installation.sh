@@ -26,7 +26,11 @@ STATUS "NGINX SERVICE START"
 
 yum install java -y &> /dev/null
 
-STATUS 
+STATUS "JAVA INSTALLATION"
+
+curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz | tar -xz
+
+STATUS "DOWNLOADING TOMCAT"
 
 
 
