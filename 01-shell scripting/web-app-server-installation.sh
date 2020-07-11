@@ -45,6 +45,8 @@ curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomca
 
 STATUS $? "DOWNLOADING TOMCAT"
 
+chown $APPUSER:$APPUSER /home/$APPUSER -R 
+
 sh /home/$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
 
 STATUS $? "STARTING TOMCAT"
