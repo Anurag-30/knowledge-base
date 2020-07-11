@@ -14,3 +14,4 @@ HEADING "WEBSERVER-INSTALLATION"
 
 yum install nginx -y &> /var/log/app.log
 
+STATUS WEBSERVER
