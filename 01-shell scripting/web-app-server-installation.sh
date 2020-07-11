@@ -19,7 +19,6 @@ STATUS $? "WEBSERVER INSTALLATION"
 
 systemctl enable nginx
  
-exit 124 
 
 STATUS $? "ENABLING NGINX SERVICE"
 
@@ -34,9 +33,9 @@ yum install java -y &> /dev/null
 STATUS $? "JAVA INSTALLATION"
 
 id $APPUSER
-if [ $? -ne 0 ]; then
-   useradd $APPUSER
-fi
+
+STATUS $? "user addition"
+
 
 cd /home/$APPUSER
 curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz | tar -xz
