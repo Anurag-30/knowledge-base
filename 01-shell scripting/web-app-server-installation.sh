@@ -5,14 +5,14 @@ HEADING(){
 STATUS() {
     if [ $? == 0 ]
      then
-       echo "$1 installation is successful"
-    else
-       echo "$1 installation is not successful"
+       echo -e "$1 \e[32m INSTALLATION IS SUCCESSFUL\e[0m\n" 
+     else
+       echo -e "$1 \e[31m INSTALLATION IS NOT SUCCESSFUL\e[0m\n" 
     fi  
 }
 HEADING "WEBSERVER-INSTALLATION"
 
-yum install nginx -y &> /var/log/app.log
+yum install nginx -y &> /dev/null
 
 STATUS WEBSERVER
 
