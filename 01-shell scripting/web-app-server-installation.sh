@@ -51,7 +51,7 @@ STATUS $? "STARTING TOMCAT"
 
 HEADING "CONFIGURING WEB SERVER TO SERVER CONTENT OF APP SERVER"
 
-sed -i -e '/location \//,+3 d' -e '/^        error_page 404/ i \\t location /student { \n\t\tproxy_pass http://localhost:8080/student;\n\t}\n' /etc/nginx/nginx.conf
+sed -i -e '/location \//,+3 d' -e '/^        error_page 404/ i \\t location / { \n\t\tproxy_pass http://localhost:8080/student;\n\t}\n' /etc/nginx/nginx.conf
  
 
 
