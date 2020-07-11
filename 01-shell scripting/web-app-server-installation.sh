@@ -5,7 +5,9 @@ HEADING(){
 STATUS() {
     if [ $? == 0 ]
      then
-       echo "$1 installation is successful
+       echo "$1 installation is successful"
+    else
+       
 }
 HEADING "WEBSERVER-INSTALLATION"
 
