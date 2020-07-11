@@ -15,7 +15,7 @@ HEADING "WEBSERVER-INSTALLATION"
 
 yum install nginx -y &> /dev/null
 
-STATUS $? "WEBSERVER INSTALLATION"
+STATUS $? "NGINX INSTALLATION"
 
 systemctl enable nginx
  
@@ -34,13 +34,21 @@ STATUS $? "JAVA INSTALLATION"
 
 id $APPUSER
 
-STATUS $? "user addition"
+if [ $? -ne 0 ]; then
+  useradd $APPUSER
+fi
 
+STATUS $? "CREATING APP USER"
 
 cd /home/$APPUSER
 curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz | tar -xz
 
 STATUS $? "DOWNLOADING TOMCAT"
+
+sh /$APPUSER/apache-tomcat-8.5.49/bin/startup.sh
+
+STATUS $? "STARTING TOMCAT"
+
 
 
 
