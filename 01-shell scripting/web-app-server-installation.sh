@@ -12,6 +12,7 @@ STATUS() {
     fi  
 }
 HEADING "WEBSERVER-INSTALLATION"
+
 yum install nginx -y &> /dev/null
 STATUS $? "NGINX INSTALLATION"
 
@@ -27,6 +28,7 @@ systemctl start nginx &> /dev/null
 STATUS $? "NGINX SERVICE START"
 
 HEADING "APP SERVER INSTALLATION"
+
 yum install java -y &> /dev/null
 STATUS $? "JAVA INSTALLATION"
 
