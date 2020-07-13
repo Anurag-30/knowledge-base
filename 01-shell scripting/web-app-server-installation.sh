@@ -48,7 +48,8 @@ STATUS_CHECK $? "MAKING TOMCAT AS A SERVICE"
 systemctl daemon-reload &>>/dev/null
 STATUS_CHECK $? "Reload Systemd Daemon"
 
-sys
+systemctl enable tomcat
+
 
 systemctl start tomcat
 STATUS $? "STARTING TOMCAT"
