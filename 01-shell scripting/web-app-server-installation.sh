@@ -12,9 +12,7 @@ STATUS() {
     fi  
 }
 HEADING "WEBSERVER-INSTALLATION"
-
 yum install nginx -y &> /dev/null
-
 STATUS $? "NGINX INSTALLATION"
 
 systemctl enable nginx
@@ -23,9 +21,9 @@ STATUS $? "ENABLING NGINX SERVICE and setting selinux permissions"
 
 rm -rf /etc/nginx/nginx.conf
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/nginx.conf -o /etc/nginx/nginx.conf
-STATUS $? ""
-systemctl start nginx
+STATUS $? "CHANGES IN NGINX CONFIG"
 
+systemctl start nginx
 STATUS $? "NGINX SERVICE START"
 
 HEADING "APP SERVER INSTALLATION"
