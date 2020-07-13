@@ -49,7 +49,6 @@ systemctl daemon-reload &>>/dev/null
 STATUS_CHECK $? "Reload Systemd Daemon"
 
 systemctl start tomcat
-
 STATUS $? "STARTING TOMCAT"
 
 HEADING "CONFIGURING WEB SERVER TO SERVER CONTENT OF APP SERVER"
