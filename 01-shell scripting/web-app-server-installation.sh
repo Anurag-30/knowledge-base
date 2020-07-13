@@ -53,7 +53,7 @@ STATUS $? "RELOAD SYSTEMD DAEMON"
 systemctl enable appserver &> /dev/null
 STATUS $? "ENABLE TOMCAT SERVICE"
 
-systemctl start tomcat &> /dev/null
+systemctl start appserver &> /dev/null
 STATUS $? "STARTING TOMCAT"
 
 
