@@ -46,7 +46,7 @@ chmod +x /etc/systemd/system/tomcat.service
 STATUS_CHECK $? "MAKING TOMCAT AS A SERVICE"
 
 systemctl daemon-reload &>>/dev/null
-STATUS_CHECK $? "Reload Systemd Daemon"
+STATUS_CHECK $? "RELOAD SYSTEMD DAEMON"
 
 systemctl enable tomcat
 STATUS_CHECK $? "ENABLE TOMCAT SERVICE"
