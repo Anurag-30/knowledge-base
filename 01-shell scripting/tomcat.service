@@ -1,5 +1,6 @@
 [Unit]
-Description=Tomcat - instance %i
+Description=Tomcat-installation
+RequiresMountsFor=/home/appuser/apache-tomcat-8.5.49/bin
 After=syslog.target network.target
 
 [Service]
@@ -8,15 +9,6 @@ Type=forking
 User=appuser
 Group=appuser
 
-WorkingDirectory=/var/tomcat/log
-
-Environment="JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/"
-Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom"
-
-Environment="CATALINA_PID=/var/tomcat/%i/run/tomcat.pid"
-Environment="CATALINA_BASE=/var/tomcat/%i/"
-Environment="CATALINA_HOME=/opt/tomcat/"
-Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
 
 ExecStart=/home/appuser/apache-tomcat-8.5.49/bin/startup.sh
 ExecStop=/home/appuser/apache-tomcat-8.5.49/bin/shutdown.sh
