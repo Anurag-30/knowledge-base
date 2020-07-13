@@ -43,7 +43,7 @@ curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomca
 STATUS $? "DOWNLOADING TOMCAT"
 
 chown -R $APPUSER:$APPUSER /home/$APPUSER 
-curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/tomcat.service -o /etc/systemd/system/appserver.service
+curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/appserver.service -o /etc/systemd/system/appserver.service
 chmod +x /etc/systemd/system/tomcat.service
 STATUS $? "MAKING TOMCAT AS A SERVICE"
 
