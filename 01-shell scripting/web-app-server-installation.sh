@@ -21,8 +21,8 @@ systemctl enable nginx
 setsebool -P httpd_can_network_connect on 
 
 STATUS $? "ENABLING NGINX SERVICE and setting selinux permissions"
-
-curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/nginx.conf -o /etc/nginx
+rm -rf /etc/nginx/nginx.conf
+curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/nginx.conf -o /etc/nginx/nginx.conf
 
 systemctl start nginx
 
