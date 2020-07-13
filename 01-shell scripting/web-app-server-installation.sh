@@ -18,7 +18,7 @@ yum install nginx -y &> /dev/null
 STATUS $? "NGINX INSTALLATION"
 
 systemctl enable nginx
- 
+setsebool -P httpd_can_network_connect on 
 
 STATUS $? "ENABLING NGINX SERVICE"
 
