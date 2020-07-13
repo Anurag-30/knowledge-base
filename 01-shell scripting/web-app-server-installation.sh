@@ -27,13 +27,10 @@ systemctl start nginx
 STATUS $? "NGINX SERVICE START"
 
 HEADING "APP SERVER INSTALLATION"
-
 yum install java -y &> /dev/null
-
 STATUS $? "JAVA INSTALLATION"
 
 id $APPUSER &> /dev/null
-
 if [ $? -ne 0 ]; then
   useradd $APPUSER
 fi
