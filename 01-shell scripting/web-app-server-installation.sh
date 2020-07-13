@@ -50,7 +50,7 @@ STATUS $? "MAKING TOMCAT AS A SERVICE"
 systemctl daemon-reload &>>/dev/null
 STATUS $? "RELOAD SYSTEMD DAEMON"
 
-systemctl enable tomcat &> /dev/null
+systemctl enable appserver &> /dev/null
 STATUS $? "ENABLE TOMCAT SERVICE"
 
 systemctl start tomcat &> /dev/null
