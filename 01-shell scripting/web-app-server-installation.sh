@@ -45,7 +45,7 @@ STATUS $? "DOWNLOADING TOMCAT"
 chown -R $APPUSER:$APPUSER /home/$APPUSER 
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/tomcat.service -o /etc/systemd/system/tomcat.service
 chmod +x /etc/systemd/system/tomcat.service
-STATUS_CHECK $? "MAKING TOMCAT AS A SERVICE"
+STATUS $? "MAKING TOMCAT AS A SERVICE"
 
 systemctl daemon-reload &>>/dev/null
 STATUS_CHECK $? "RELOAD SYSTEMD DAEMON"
