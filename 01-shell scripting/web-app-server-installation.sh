@@ -20,7 +20,7 @@ STATUS $? "NGINX INSTALLATION"
 systemctl enable nginx
 setsebool -P httpd_can_network_connect on 
 
-STATUS $? "ENABLING NGINX SERVICE"
+STATUS $? "ENABLING NGINX SERVICE and setting selinux permissions"
 
 systemctl start nginx
 
