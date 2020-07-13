@@ -15,7 +15,7 @@ HEADING "WEBSERVER-INSTALLATION"
 yum install nginx -y &> /dev/null
 STATUS $? "NGINX INSTALLATION"
 
-systemctl enable nginx 
+systemctl enable nginx &> /dev/null
 setsebool -P httpd_can_network_connect on 
 STATUS $? "ENABLING NGINX SERVICE and setting selinux permissions"
 
