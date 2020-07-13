@@ -43,6 +43,7 @@ STATUS $? "DOWNLOADING TOMCAT"
 chown $APPUSER:$APPUSER /home/$APPUSER -R 
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/tomcat.service -o /etc/systemd/system/tomcat.service
 chmod +x /etc/systemd/system/tomcat.service
+STATUS_CHECK $? "Reload Systemd Daemon"
 
 systemctl daemon-reload &>>/dev/null
 STATUS_CHECK $? "Reload Systemd Daemon"
