@@ -21,7 +21,7 @@ STATUS $? "ENABLING NGINX SERVICE and setting selinux permissions"
 
 rm -rf /etc/nginx/nginx.conf
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/nginx.conf -o /etc/nginx/nginx.conf
-STATUS $? "CONFIGURING WEB SERVER TO SERVER CONTENT OF APP SERVER""
+STATUS $? "CONFIGURING WEB SERVER TO SERVE CONTENT OF APP SERVER""
 
 systemctl start nginx
 STATUS $? "NGINX SERVICE START"
