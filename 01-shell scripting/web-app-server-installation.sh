@@ -34,12 +34,10 @@ id $APPUSER &> /dev/null
 if [ $? -ne 0 ]; then
   useradd $APPUSER
 fi
-
 STATUS $? "CREATING APP USER"
 
 cd /home/$APPUSER
 curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz | tar -xz
-
 STATUS $? "DOWNLOADING TOMCAT"
 
 chown $APPUSER:$APPUSER /home/$APPUSER -R 
