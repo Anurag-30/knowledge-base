@@ -23,7 +23,7 @@ rm -rf /etc/nginx/nginx.conf
 curl -s https://raw.githubusercontent.com/Anurag-30/knowledge-base/master/01-shell%20scripting/nginx.conf -o /etc/nginx/nginx.conf
 STATUS $? "CONFIGURING WEB SERVER TO SERVE CONTENT OF APP SERVER"
 
-systemctl start nginx
+systemctl start nginx &> /dev/null
 STATUS $? "NGINX SERVICE START"
 
 HEADING "APP SERVER INSTALLATION"
@@ -48,10 +48,10 @@ STATUS_CHECK $? "MAKING TOMCAT AS A SERVICE"
 systemctl daemon-reload &>>/dev/null
 STATUS_CHECK $? "RELOAD SYSTEMD DAEMON"
 
-systemctl enable tomcat
+systemctl enable tomcat &> /dev/null
 STATUS_CHECK $? "ENABLE TOMCAT SERVICE"
 
-systemctl start tomcat
+systemctl start tomcat &> /dev/null
 STATUS $? "STARTING TOMCAT"
 
 
