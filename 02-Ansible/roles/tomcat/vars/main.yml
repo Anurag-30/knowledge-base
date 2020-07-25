@@ -1,3 +1,4 @@
 TOMCAT_VERSION: 8.5.50
+USER: student
 TOMCAT_URL: https://archive.apache.org/dist/tomcat/tomcat-8/v{{TOMCAT_VERSION}}/bin/apache-tomcat-{{TOMCAT_VERSION}}.tar.gz
 TOMCAT_INIT_SCRIPT_URL: https://s3-us-west-2.amazonaws.com/studentapi-cit/tomcat-init
