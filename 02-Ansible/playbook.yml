@@ -1,7 +1,7 @@
 - name: run the role
   hosts: all
   vars_prompt:
-    - name:  NUMBER
+    - name:  COUNT
       prompt: Number of tomcat installations
       private: no
   roles:
