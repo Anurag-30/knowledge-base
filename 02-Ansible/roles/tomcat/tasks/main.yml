@@ -1,4 +1,4 @@
-name: testing vars_prompt
-vars_prompt: message
-debug:
+- name: testing vars_prompt
+  vars_prompt: message
+  debug:
     msg: { message }
