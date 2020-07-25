@@ -1,1 +1,3 @@
 name: testing vars_prompt
+debug:
+    msg:
