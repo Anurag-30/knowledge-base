@@ -14,6 +14,7 @@
     src: "{{TOMCAT_URL}}"
     dest: "/home/centos"
     remote_src: yes
+  become: yes
   when: tomcat_dir_check.stat.exists|bool == false
 
 - name: Download TOmcat Init script 
