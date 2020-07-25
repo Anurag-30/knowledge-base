@@ -1,4 +1,5 @@
 - name: Install Java
+  become: yes
   package:
     name: Java
     state: latest
