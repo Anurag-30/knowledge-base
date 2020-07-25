@@ -16,5 +16,22 @@
     remote_src: yes
     when: tomcat_dir_check.stat.exists|bool == false
 
+- name: Download TOmcat Init script 
+  get_url:
+    url: "{{TOMCAT_INIT_SCRIPT_URL}}"
+    dest: /etc/init.d/tomcat 
+      mode: u=rwx,g=rx,o=rx 
+  
+  - name: Reload Systemctl service 
+    systemd:
+      daemon_reload: yes
+    
+  - name: Start Tomcat Service 
+    service:
+      name: tomcat 
+      state: started 
+  
+  
+
 
 
