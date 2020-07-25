@@ -1,4 +1,11 @@
-- name: testing vars_prompt
-  vars_prompt: message
-  debug:
-    msg: { message }
+- name: Print values from a file 
+  hosts: all 
+  vars_prompt:
+    - name: URL 
+      prompt: Enter the URL
+      private: no
+  tasks:
+    - name: Print a value from prompt File 
+      debug:
+        msg: URL = {{URL}} 
+
