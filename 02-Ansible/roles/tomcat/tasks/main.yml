@@ -30,6 +30,7 @@
   become: yes
     
 - name: Start Tomcat Service 
+  become: yes
   service:
     name: tomcat 
     state: started 
