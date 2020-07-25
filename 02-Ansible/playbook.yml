@@ -1,7 +1,7 @@
 - name: run the role
   hosts: all
   vars_prompt:
-    - name:  message
+    - name:  NUMBER
       prompt: Just to confirm you will install stuff
       private: no
   roles:
