@@ -7,10 +7,10 @@
 - name: Check a tomcat directory exists or not 
   stat:
     path: /home/student/apache-tomcat-{{TOMCAT_VERSION}}
-    register: tomcat_dir_check
+  register: tomcat_dir_check
   
-  - name: Download Tomcat 
-    unarchive:
+- name: Download Tomcat 
+  unarchive:
       src: "{{TOMCAT_URL}}"
       dest: "/home/{{APPUSER}}"
       remote_src: yes
