@@ -2,7 +2,7 @@
   hosts: all
   vars_prompt:
     - name:  NUMBER
-      prompt: Just to confirm you will install stuff
+      prompt: Number of tomcat installations
       private: no
   roles:
     - tomcat
