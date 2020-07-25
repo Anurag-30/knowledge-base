@@ -3,5 +3,5 @@
     - name: MESSAGE
       prompt: Enter the MESSAGE
       private: no
-  debug:
+debug:
     msg: URL = {{MESSAGE}} 
