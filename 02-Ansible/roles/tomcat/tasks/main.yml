@@ -4,7 +4,7 @@
       prompt: Enter the MESSAGE
       private: no
   tasks:
-    - name: Print a value from prompt File 
+    - name: Print a value from prompt 
       debug:
         msg: URL = {{URL}} 
 
