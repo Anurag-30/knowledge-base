@@ -1,3 +1,4 @@
 name: run the role
+hosts: all
 roles:
     - tomcat
