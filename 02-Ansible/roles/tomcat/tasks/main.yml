@@ -2,6 +2,6 @@
 vars_prompt:
     - name: message
         prompt: Enter your message
-      private: no
+        private: no
   debug:
     msg: {message}
