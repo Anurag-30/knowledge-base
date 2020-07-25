@@ -16,10 +16,5 @@
     remote_src: yes
     when: tomcat_dir_check.stat.exists|bool == false
 
-  - name: Download StudentApp War file 
-    get_url:
-      url: "{{WAR_URL}}"
-      dest: "/home/{{APPUSER}}/apache-tomcat-{{TOMCAT_VERSION}}/webapps"
-    become_user: "{{APPUSER}}"
-  
+
 
