@@ -14,10 +14,8 @@
     src: "{{TOMCAT_URL}}"
     dest: "/home/centos"
     remote_src: yes
-  become_user: "{{APPUSER}}"
     when: tomcat_dir_check.stat.exists|bool == false
-    notify: Restart Tomcat 
-  
+
   - name: Download StudentApp War file 
     get_url:
       url: "{{WAR_URL}}"
