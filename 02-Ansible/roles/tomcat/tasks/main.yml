@@ -1,4 +1,4 @@
-- name: Print values from prompt
+
   vars_prompt:
     - name: MESSAGE
       prompt: Enter the MESSAGE
