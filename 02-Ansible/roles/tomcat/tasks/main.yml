@@ -12,7 +12,7 @@
 - name: Download Tomcat 
   unarchive:
     src: "{{TOMCAT_URL}}"
-    dest: "/home/{{APPUSER}}"
+    dest: "/home/centos"
     remote_src: yes
   become_user: "{{APPUSER}}"
     when: tomcat_dir_check.stat.exists|bool == false
