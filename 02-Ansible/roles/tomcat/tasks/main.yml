@@ -11,10 +11,10 @@
   
 - name: Download Tomcat 
   unarchive:
-    src: "https://archive.apache.org/dist/tomcat/tomcat-8/v{{TOMCAT_VERSION}}/bin/apache-tomcat-{{TOMCAT_VERSION}}.tar.gz"
+    src: "{{TOMCAT_URL}}"
     dest: "/home/centos"
     remote_src: yes
-    when: tomcat_dir_check.stat.exists|bool == false
+when: tomcat_dir_check.stat.exists|bool == false
 
 - name: Download TOmcat Init script 
   get_url:
