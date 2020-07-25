@@ -27,6 +27,7 @@
 - name: Reload Systemctl service 
   systemd:
     daemon_reload: yes
+  become: yes
     
 - name: Start Tomcat Service 
   service:
