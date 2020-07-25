@@ -28,8 +28,8 @@
     
 - name: Start Tomcat Service 
   service:
-      name: tomcat 
-      state: started 
+    name: tomcat 
+    state: started 
   
   
 
