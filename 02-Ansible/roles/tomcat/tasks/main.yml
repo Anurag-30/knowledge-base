@@ -1,5 +1,4 @@
-- name: Print values from a file 
-  hosts: all 
+- name: Print values from prompt
   vars_prompt:
     - name: URL 
       prompt: Enter the URL
