@@ -1,3 +1,3 @@
 - name: Print values from promp
   debug:
-    msg: {message}
+    msg: {{message}
