@@ -1,4 +1,6 @@
 - name: Install Java
   package:
     name: Java
-    state:
+    state: latest
+
+
