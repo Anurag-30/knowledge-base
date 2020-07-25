@@ -1,7 +1,7 @@
 - name: Install Java
   become: yes
   package:
-    name: Java
+    name: java
     state: latest
 
 - name: testing prompt
