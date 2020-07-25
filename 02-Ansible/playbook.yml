@@ -1,4 +1,4 @@
-name: run the role
-hosts: all
-roles:
+- name: run the role
+  hosts: all
+  roles:
     - tomcat
