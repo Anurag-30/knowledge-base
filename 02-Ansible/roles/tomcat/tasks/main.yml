@@ -4,4 +4,4 @@
       prompt: Enter the MESSAGE
       private: no
   debug:
-    msg: URL = {{URL}} 
+    msg: URL = {{MESSAGE}} 
