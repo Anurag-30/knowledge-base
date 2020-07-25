@@ -1,4 +1,5 @@
 - name: Print values from prompt
-  vars
+  vars_prompt:
+    - name
   debug:
     msg: hello 
