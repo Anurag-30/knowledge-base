@@ -3,5 +3,6 @@
   vars_prompt:
     - name:  message
       prompt: Just to confirm you will install stuff
+      private: no
   roles:
     - tomcat
