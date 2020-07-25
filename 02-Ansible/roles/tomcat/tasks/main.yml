@@ -5,8 +5,8 @@
     state: latest
 
 - name: Check a tomcat directory exists or not 
-    stat:
-      path: /home/student/apache-tomcat-{{TOMCAT_VERSION}}
+  stat:
+    path: /home/student/apache-tomcat-{{TOMCAT_VERSION}}
     register: tomcat_dir_check
   
   - name: Download Tomcat 
