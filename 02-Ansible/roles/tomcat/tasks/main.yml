@@ -11,10 +11,10 @@
   
 - name: Download Tomcat 
   unarchive:
-      src: "{{TOMCAT_URL}}"
-      dest: "/home/{{APPUSER}}"
-      remote_src: yes
-    become_user: "{{APPUSER}}"
+    src: "{{TOMCAT_URL}}"
+    dest: "/home/{{APPUSER}}"
+    remote_src: yes
+  become_user: "{{APPUSER}}"
     when: tomcat_dir_check.stat.exists|bool == false
     notify: Restart Tomcat 
   
