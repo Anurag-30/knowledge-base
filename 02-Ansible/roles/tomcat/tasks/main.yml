@@ -5,11 +5,13 @@
     state: latest
 
 - name: Check a tomcat directory exists or not 
+  become: yes
   stat:
     path: /root/apache-tomcat-{{TOMCAT_VERSION}}
   register: tomcat_dir_check
   
 - name: Download Tomcat 
+  become: yes
   unarchive:
     src: "{{TOMCAT_URL}}"
     dest: "/root/"
