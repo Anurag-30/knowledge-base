@@ -6,13 +6,13 @@
 
 - name: Check a tomcat directory exists or not 
   stat:
-    path: /home/root/apache-tomcat-{{TOMCAT_VERSION}}
+    path: /root/apache-tomcat-{{TOMCAT_VERSION}}
   register: tomcat_dir_check
   
 - name: Download Tomcat 
   unarchive:
     src: "{{TOMCAT_URL}}"
-    dest: "/root"
+    dest: "/root/"
     remote_src: yes
   become: yes
   when: tomcat_dir_check.stat.exists|bool == false
