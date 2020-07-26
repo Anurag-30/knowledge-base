@@ -18,7 +18,7 @@
   become: yes
   when: tomcat_dir_check.stat.exists|bool == false
 
-- name: Download TOmcat Init script 
+- name: Copy Tomcat Init script 
   become: yes
   copy:
     src: tomcat-init
