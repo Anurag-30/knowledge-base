@@ -16,7 +16,7 @@ start() {
     echo "Tomcat already started"
     exit 
   fi 
-  "nohup $STARTUP" 
+  $STARTUP
 }
 
 stop() {
