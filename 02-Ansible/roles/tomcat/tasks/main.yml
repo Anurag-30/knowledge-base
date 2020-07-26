@@ -20,7 +20,7 @@
 - name: Download TOmcat Init script 
   copy:
     src: tomcat-init
-    dest: 
+    dest: /etc/
   
 - name: Reload Systemctl service 
   systemd:
