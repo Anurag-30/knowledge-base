@@ -16,7 +16,7 @@ start() {
     echo "Tomcat already started"
     exit 
   fi 
-  su - $TOMCAT_USER -c "nohup $STARTUP" 
+  "nohup $STARTUP" 
 }
 
 stop() {
