@@ -18,6 +18,7 @@
   when: tomcat_dir_check.stat.exists|bool == false
 
 - name: Download TOmcat Init script 
+  become: yes
   copy:
     src: tomcat-init
     dest: /etc/init.d/tomcat 
