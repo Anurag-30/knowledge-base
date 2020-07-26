@@ -5,7 +5,7 @@
 # chkconfig: 234 20 80  
 #
 
-TOMCAT_USER=student
+TOMCAT_USER=root
 TOMCAT_DIR=$(ls -d /home/$TOMCAT_USER/apache*)
 STARTUP=$TOMCAT_DIR/bin/startup.sh
 SHUTDOWN=$TOMCAT_DIR/bin/shutdown.sh
