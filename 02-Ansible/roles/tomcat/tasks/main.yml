@@ -19,7 +19,8 @@
 
 - name: Download TOmcat Init script 
   copy:
-    src: tomcat-
+    src: tomcat-init
+    dest: 
   
 - name: Reload Systemctl service 
   systemd:
