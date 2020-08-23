@@ -39,8 +39,8 @@ You can read more about different data type available [ here ] (https://www.post
 
 ## Creating A Table Without Constraints
 
-` CREATE TABLE person (
-    id int;
-    first_name VARCHAR(50);
+` CREATE TABLE person ( <br />
+    id int; <br />
+    first_name VARCHAR(50); <br />
 
-)
+)<br />
