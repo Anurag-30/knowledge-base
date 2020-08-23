@@ -4,3 +4,5 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 1. To get data of a specific column we can use. <br />
 
+`select 
+
