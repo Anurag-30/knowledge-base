@@ -56,5 +56,5 @@ This statement returns all the name that ends with oe.
 
 ## GROUP BY
 
-
+`SELECT bi
 
