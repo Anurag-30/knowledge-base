@@ -41,6 +41,7 @@ You can read more about different data type available [ here ] (https://www.post
 
 ` CREATE TABLE person ( <br />
     id int; <br />
-    first_name VARCHAR(50); <br />
+    first_name VARCHAR(50);
+     <br />
 
-)<br />
+) <br />
