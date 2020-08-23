@@ -84,5 +84,7 @@ You can add records into the table by using `INSERT` command. <br />
     first_name,
     last_name,
     gender,
-    date_of_birth
+    date_of_birth,
+    email
 )
+VAL
