@@ -65,7 +65,8 @@ You can have only one primary key (unique and is not null) for a table.
     id              BIGSERIAL PRIMARY KEY,
     first_name      VARCHAR(50) NOT NULL,
     last_name       VARCHAR(50) NOT NULL,
-    gender          CHAR
+    gender          CHAR(10)    NOT NULL,
+    date_
 )
 
 
