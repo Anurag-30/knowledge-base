@@ -35,4 +35,4 @@ If you want to limit the number of records that you want to have we can use the 
 
 We can provide a list of parameters that we want to query instead of writing a sequence of `OR` or `AND` conditions using `IN`. <br />
 
-`SELECT 
+`SELECT * FROM person WHERE country_of_birth
