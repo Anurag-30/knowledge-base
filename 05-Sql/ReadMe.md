@@ -91,4 +91,5 @@ You can add records into the table by using `INSERT` command. <br />
 )
 VALUES ('Anurag','Parchuri','Male', DATE '1995/06/30', 'imanurag309@gmail.com');`
 
-## 
+## View The Contents Of A Table
+
