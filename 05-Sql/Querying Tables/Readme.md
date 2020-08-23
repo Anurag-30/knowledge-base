@@ -23,6 +23,10 @@ Many times you come across a table with 1000's of records or more , you want to 
 
 The above query can be used to retrieve all the first names from the table `person` where the gender is female and age is in between 24 and 30. The output is then sorted by using ORDER BY in descending order. <br />
 
+# LIMIT and OFFSET
+
+
+
 
 
 
