@@ -49,5 +49,6 @@ You can read more about different data type available --> https://www.postgresql
 );`  <br />                       
 
 
+## DELETE 
 
 
