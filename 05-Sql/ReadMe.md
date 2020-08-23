@@ -39,6 +39,6 @@ A table consists of 3 things column + type of the data + constraints (optional) 
 
 ` CREATE TABLE person (
     id int;
-    first_name varchar(50);
-    
+    first_name VARCHAR(50);
+
 )
