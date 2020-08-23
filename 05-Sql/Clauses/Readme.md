@@ -10,7 +10,7 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 `SELECT * FROM <table_name> ORDER BY <column_name> DESC;` <br />
 
-The order by is case-sensitive in nature i.e a != A , so at times sort doesn't work as expected. You can convert all the values to lower or upper
+The order by is case-sensitive in nature i.e a != A , so at times sort doesn't work as expected. You can convert all the values to `lower or upper
 
 
 
