@@ -32,7 +32,7 @@ It is a dangerous command and has to be used with caution as it deletes the data
 
 A table consists of 3 things column + type of the data + constraints (optional) <br />
 
-` CREATE TABLE table_name ( <br />
+` CREATE TABLE table_name ( 
     column_name + datatype + constraints if any 
 );` <br />
 
@@ -40,8 +40,8 @@ You can read more about different data type available --> https://www.postgresql
 
 ## Creating A Table Without Constraints
 
-`CREATE TABLE person (           <br />
-    id             UUID,         <br />
+`CREATE TABLE person (          
+    id             UUID,         
     first_name     VARCHAR(50),  <br />
     last_name      VARCHAR(50),  <br />
     gender         CHAR(10),     <br />
