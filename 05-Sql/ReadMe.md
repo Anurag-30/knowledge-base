@@ -97,4 +97,4 @@ One can see the data inside the table using `SELECT` command. <br />
 
 `SELECT * FROM <table name>` <br />
 
-Here * lists all the records inside of a table. you can get mock data at 
+Here * lists all the records inside of a table. you can get mock data at https://www.mockaroo.com/ which can be used to practice 
