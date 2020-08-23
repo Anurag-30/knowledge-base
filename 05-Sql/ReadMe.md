@@ -75,4 +75,6 @@ You can have only one primary key (unique and is not null) for a table.
 
 You can add records into the table by using `INSERT` command<br />
 
-` INSERT 
+` INSERT INTO table_name (
+    column name
+)
