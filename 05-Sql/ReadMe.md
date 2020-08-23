@@ -80,11 +80,11 @@ You can add records into the table by using `INSERT` command. <br />
 )Values ('values')` <br />
 
 `INSERT INTO person (
-    
+
     first_name,
     last_name,
     gender,
     date_of_birth,
     email
 )
-VALUES ('')
+VALUES ('Anurag','Parchuri','Male')
