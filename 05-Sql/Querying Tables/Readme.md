@@ -31,6 +31,6 @@ If you want to limit the number of records that you want to have we can use the 
 
 `SELECT * FROM person OFFSET 10 LIMIT 10;` <br />
 
-`OFFSET` can be used to set the starting number of the record. The above statement gives 
+`OFFSET` can be used to set the starting number of the record. The above statement gives the records between 10 
 
 
