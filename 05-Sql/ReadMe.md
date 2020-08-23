@@ -79,4 +79,6 @@ You can add records into the table by using `INSERT` command. <br />
     column name
 )Values ('values')` <br />
 
-`
+`INSERT INTO person (
+    id
+)
