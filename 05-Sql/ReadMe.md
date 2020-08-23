@@ -55,6 +55,6 @@ You can delete a table the same way we did for a database using `DROP` command <
 
 `DROP TABLE <Table Name>;` <br />
 
-`DROP TABLE 
+`DROP TABLE person
 
 
