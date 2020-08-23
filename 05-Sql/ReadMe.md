@@ -95,4 +95,4 @@ VALUES ('Anurag','Parchuri','Male', DATE '1995/06/30', 'imanurag309@gmail.com');
 
 One can see the data inside the table using `SELECT` command. <br />
 
-`
+`SELECT * FROM <table name>` <>
