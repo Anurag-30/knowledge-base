@@ -73,3 +73,4 @@ You can have only one primary key (unique and is not null) for a table.
 
 ## Insert Into A Table
 
+You can add records into the table by using 
