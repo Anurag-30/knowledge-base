@@ -36,7 +36,7 @@ A table consists of 3 things column + type of the data + constraints (optional) 
     column_name + datatype + constraints if any <br />
 );` <br />
 
-You can read more about different data type available  (https://www.postgresql.org/docs/9.5/datatype.html) <br />
+You can read more about different data type available --> https://www.postgresql.org/docs/9.5/datatype.html <br />
 
 ## Creating A Table Without Constraints
 
