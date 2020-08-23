@@ -4,5 +4,5 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 1. To get data of a specific column we can use. <br />
 
-`SELECT <column_name> FROM <>
+`SELECT <column_name> FROM <table_name>;` <br />
 
