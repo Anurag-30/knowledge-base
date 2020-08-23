@@ -42,8 +42,8 @@ You can read more about different data type available --> https://www.postgresql
 
 `CREATE TABLE person (          
     id             UUID,         
-    first_name     VARCHAR(50),  <br />
-    last_name      VARCHAR(50),  <br />
+    first_name     VARCHAR(50),  
+    last_name      VARCHAR(50),  
     gender         CHAR(10),     <br />
     date_of_birth  DATE          <br />
 );`                              <br />
