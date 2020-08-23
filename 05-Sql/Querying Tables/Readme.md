@@ -21,7 +21,7 @@ Many times you come across a table with 1000's of records or more , you want to 
 
 ` SELECT first_name FROM person WHERE gender = 'female' AND (age > 23 AND age <= 30) ORDER BY DESC;` <br />
 
-The above query can be used to retrieve all the first names from the table `person` where the gender is female and age is in between 24 and 30
+The above query can be used to retrieve all the first names from the table `person` where the gender is female and age is in between 24 and 30. The 
 
 
 
