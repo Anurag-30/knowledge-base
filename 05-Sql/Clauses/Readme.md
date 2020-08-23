@@ -6,7 +6,7 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 `SELECT <column_name> FROM <table_name>;` <br />
 
-2. Sorting the ourput using `ORDER BY`. By default the behaviour of `ORDER BY` is As
+2. Sorting the ourput using `ORDER BY`. By default the behaviour of `ORDER BY` is that it gives the output in Ascending order, you can 
 
 
 
