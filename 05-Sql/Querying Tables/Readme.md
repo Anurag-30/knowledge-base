@@ -47,4 +47,4 @@ If you want to run queries between a certain range we can use `BETWEEN` to get t
 
 This statement gets all the first names who were born between 2019 and 2020. <br />
 
-
+`LIKE` and `ALIKE` commands can be used to search the 
