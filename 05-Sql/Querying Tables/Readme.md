@@ -45,4 +45,6 @@ If you want to run queries between a certain range we can use `BETWEEN` to get t
 
 `SELECT first_name FROM person WHERE date_of_birth BETWEEN DATE '2019-01-01' AND '2020-01-01' ;` <br />
 
-This statement gets all the first names who were born between 
+This statement gets all the first names who were born between 2019 and 2020. <br />
+
+
