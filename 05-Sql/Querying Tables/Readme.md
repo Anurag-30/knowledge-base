@@ -29,8 +29,8 @@ The above query can be used to retrieve all the first names from the table `pers
 
 If you want to limit the number of records that you want to have we can use the `LIMIT`. Using the above query we can restrict the output to the first 15 records of occurence instead of all. <br />
 
-`SELECT * FROM person OFFSET 10 LIMIT 10;` <br />
+`SELECT * FROM person OFFSET 10 LIMIT 5;` <br />
 
-`OFFSET` can be used to set the starting number of the record. The above statement gives the records between 10 and 20 of the occurences. <br />
+`OFFSET` can be used to set the starting number of the record. The above statement gives the records between 10 and 15 of the occurences. <br />
 
 
