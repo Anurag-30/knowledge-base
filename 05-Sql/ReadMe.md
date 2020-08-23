@@ -39,7 +39,7 @@ You can read more about different data type available [ here ] (https://www.post
 
 ## Creating A Table Without Constraints
 
-` CREATE TABLE person ( 
+`CREATE TABLE person ( 
     id             int, 
     first_name     VARCHAR(50),
     last_name      VARCHAR(50),
