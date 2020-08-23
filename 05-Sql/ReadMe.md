@@ -33,7 +33,7 @@ It is a dangerous command and has to be used with caution as it deletes the data
 A table consists of 3 things column + type of the data + constraints (optional) <br />
 
 ` CREATE TABLE table_name ( <br />
-    column_name + datatype + constraints if any <br />
+    column_name + datatype + constraints if any 
 );` <br />
 
 You can read more about different data type available --> https://www.postgresql.org/docs/9.5/datatype.html <br />
