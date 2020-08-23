@@ -59,7 +59,7 @@ You can delete a table the same way we did for a database using `DROP` command <
 
 ## Create A Table With Constraints
 
-You can have only one primary key (unique and is not null) for a table.
+You can have only one primary key (unique and is not null) for a table.  <br />
 
 ` CREATE TABLE person (
     id              BIGSERIAL     PRIMARY KEY,
@@ -73,9 +73,10 @@ You can have only one primary key (unique and is not null) for a table.
 
 ## Insert Into A Table
 
-You can add records into the table by using `INSERT` command<br />
+You can add records into the table by using `INSERT` command. <br />
 
 ` INSERT INTO table_name (
     column name
-)Values ('values')` <>
+)Values ('values')` <br />
 
+`
