@@ -9,7 +9,7 @@ A database is a place where you can store, manipulate and delete the data. The d
 `psql -h <psql server address> -p <port> -U <user used to connect>`
 
 `\l` --> lists all the databases in the server <br />
-`\c` --> connecting to a specific database 
+`\c` --> connecting to a specific database <br />
 
 ## Create A database
 
