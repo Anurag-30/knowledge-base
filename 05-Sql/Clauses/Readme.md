@@ -6,3 +6,5 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 `SELECT <column_name> FROM <table_name>;` <br />
 
+2. Sorting the ourput using `
+
