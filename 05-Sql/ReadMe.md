@@ -6,7 +6,7 @@ A database is a place where you can store, manipulate and delete the data. The d
 
 ## Connecting to the Postgres using psql
 
-`psql -h <psql server address> -p <port> -U <Valid user used to connect>`
+`psql -h <psql server address> -p <port> -U <Valid user to connect>`
 
 `\l` --> lists all the databases in the server <br />
 `\c` --> connecting to a specific database <br />
@@ -28,4 +28,6 @@ It is a dangerous command and has to be used with caution as it deletes the data
 `DROP DATABASE test;`
 
 ## Create A Table
+
+A table consists of 3 things 
 
