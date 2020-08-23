@@ -41,4 +41,4 @@ This statements returns all the records that matches the country value with Indi
 
 # BETWEEN , LIKE and ALIKE
 
-
+If you want to run queries 
