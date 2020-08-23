@@ -27,6 +27,8 @@ The above query can be used to retrieve all the first names from the table `pers
 
 `SELECT * FROM person LIMIT 15;` <br />
 
-If you want to limit the number of records that you want to have we can use the `LIMIT`. Using the above query we can restrict the output to the first 15 records <br />
+If you want to limit the number of records that you want to have we can use the `LIMIT`. Using the above query we can restrict the output to the first 15 records of occurence instead of all. <br />
+
+
 
 
