@@ -41,4 +41,4 @@ This statements returns all the records that matches the country value with Indi
 
 # BETWEEN , LIKE and ALIKE
 
-If you want to run queries between a certain range we can use BETWEEN to get the records of
+If you want to run queries between a certain range we can use `BETWEEN` to get the records of specified ranges. <>
