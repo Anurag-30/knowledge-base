@@ -31,4 +31,6 @@ If you want to limit the number of records that you want to have we can use the 
 
 `SELECT * FROM person OFFSET 10 LIMIT 10;`
 
+`OFFSET`
+
 
