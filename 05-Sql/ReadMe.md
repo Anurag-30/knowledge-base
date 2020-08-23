@@ -80,7 +80,7 @@ You can add records into the table by using `INSERT` command. <br />
 )Values ('values')` <br />
 
 `INSERT INTO person (
-    id,
+    
     first_name,
     last_name,
     gender,
