@@ -39,7 +39,7 @@ We can provide a list of parameters that we want to query instead of writing a s
 
 This statements returns all the records that matches the country value with India, China or Brazil. </br>
 
-# BETWEEN , LIKE and ALIKE
+# BETWEEN , LIKE and ILIKE
 
 If you want to run queries between a certain range we can use `BETWEEN` to get the records of specified ranges. <br />
 
