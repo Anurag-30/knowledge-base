@@ -56,5 +56,5 @@ This statement returns all the name that ends with oe.
 
 ## GROUP BY
 
-`SELECT birth_by_country , COUNT(*) FROM person WHERE 
+`SELECT birth_by_country , COUNT(*) FROM person GROUP BY birth_by_country;
 
