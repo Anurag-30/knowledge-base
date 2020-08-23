@@ -63,7 +63,7 @@ You can have only one primary key (unique and is not null) for a table.
 
 ` CREATE TABLE person (
     id              BIGSERIAL PRIMARY KEY,
-    first_name      
+    first_name      VARCHAR(50) NOT NULL,
 )
 
 
