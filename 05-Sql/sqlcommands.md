@@ -27,3 +27,4 @@ It is a dangerous command and has to be used with caution as it deletes the data
 
 `DROP DATABASE test;`
 
+## Create a 
