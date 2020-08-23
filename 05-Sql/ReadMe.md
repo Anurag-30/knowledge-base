@@ -62,8 +62,8 @@ You can delete a table the same way we did for a database using `DROP` command <
 You can have only one primary key (unique and is not null) for a table.
 
 ` CREATE TABLE person (
-    id              BIGSERIAL,
-    firs
+    id              BIGSERIAL PRIMARY KEY,
+    first_name      
 )
 
 
