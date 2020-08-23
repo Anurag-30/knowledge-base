@@ -39,4 +39,4 @@ We can provide a list of parameters that we want to query instead of writing a s
 
 This statements returns all the records that matches the country value with India, China or Brazil. </br>
 
-
+# BETWEEN , LIKE and A
