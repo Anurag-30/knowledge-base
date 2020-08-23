@@ -46,7 +46,7 @@ You can read more about different data type available --> https://www.postgresql
     last_name      VARCHAR(50),  
     gender         CHAR(10),     
     date_of_birth  DATE          
-);`                              
+);`  <br />                       
 
 
 
