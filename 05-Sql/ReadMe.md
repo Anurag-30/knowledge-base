@@ -68,6 +68,6 @@ You can have only one primary key (unique and is not null) for a table.
     gender          CHAR(10)      NOT NULL,
     date_of_birth   DATE          NOT NULL,
     email           VARCHAR(100)
-)
+); ` <br />
 
 
