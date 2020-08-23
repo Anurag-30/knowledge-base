@@ -57,6 +57,8 @@ You can delete a table the same way we did for a database using `DROP` command <
 
 `DROP TABLE person;`   <br />
 
+## Create A Table With Constraints
+
 
 
 
