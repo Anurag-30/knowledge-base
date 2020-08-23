@@ -77,4 +77,5 @@ You can add records into the table by using `INSERT` command<br />
 
 ` INSERT INTO table_name (
     column name
-)Values 
+)Values ('values')` <>
+
