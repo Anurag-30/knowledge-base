@@ -43,4 +43,6 @@ This statements returns all the records that matches the country value with Indi
 
 If you want to run queries between a certain range we can use `BETWEEN` to get the records of specified ranges. <br />
 
-`SELECT first_name FROM person WHERE date_of_birth BETWEEN DATE '2019-01-01' AND '2020-01-01' ;`
+`SELECT first_name FROM person WHERE date_of_birth BETWEEN DATE '2019-01-01' AND '2020-01-01' ;` <br />
+
+This 
