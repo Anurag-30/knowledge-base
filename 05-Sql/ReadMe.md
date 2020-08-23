@@ -12,7 +12,7 @@ A database is a place where you can store, manipulate and delete the data. The d
 `\c`              --> connecting to a specific database <br />
 `\d`              --> list all the tables in a database <br />
 `\d <table-name>` --> To describe the strcuture of the table <br />
-`\i` <File Path>  --> To give input as a file 
+`\i` <File Path>  --> To give input as a file which has commands to execute <br />
 
 ## Create A database
 
