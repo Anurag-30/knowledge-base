@@ -35,7 +35,7 @@ A table consists of 3 things column + type of the data + constraints (optional) 
     column_name + datatype + constraints if any
 );`
 
-
+You can read more about 
 
 ## Creating A Table Without Constraints
 
