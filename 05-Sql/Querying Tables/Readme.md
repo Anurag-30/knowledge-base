@@ -19,8 +19,7 @@ The order by is case-sensitive in nature i.e a != A , so at times sort doesn't w
 
 Many times you come across a table with 1000's of records or more , you want to search for data that meets a specific criteria for example getting the list of people who are orlder than 25. We can do it using `WHERE` clause and conditions along with it. <br />
 
-` SELECT first_name FROM person WHERE gender = 'female' AND (age > 23 AND age <= 30) ORDER BY DESC;`
-
+` SELECT first_name FROM person WHERE gender = 'female' AND (age > 23 AND age <= 30) ORDER BY DESC;` <br />
 
 
 
