@@ -87,4 +87,4 @@ You can add records into the table by using `INSERT` command. <br />
     date_of_birth,
     email
 )
-VALUES ('Anurag','Parchuri','Male', DATE '1995/)
+VALUES ('Anurag','Parchuri','Male', DATE '1995/06/30',)
