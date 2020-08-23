@@ -15,7 +15,7 @@ The order by is case-sensitive in nature i.e a != A , so at times sort doesn't w
 `SELECT first_name FROM person ORDER BY LOWER(first_name);` <br />
 
 
-
+# SELECT command with W
 
 
 
