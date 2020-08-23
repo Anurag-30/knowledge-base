@@ -33,4 +33,4 @@ If you want to limit the number of records that you want to have we can use the 
 
 `OFFSET` can be used to set the starting number of the record. The above statement gives the records between 10 to 15 from the total occurences. <br />
 
-We can provide a list of parameters instead of writing a sequence of `OR` or 
+We can provide a list of parameters instead of writing a sequence of `OR` or `AND` conditions
