@@ -59,6 +59,6 @@ You can delete a table the same way we did for a database using `DROP` command <
 
 ## Create A Table With Constraints
 
-You can have one primary key for a table which is unique and is not null
+You can have one primary key (unique and is not null) for a table.
 
 
