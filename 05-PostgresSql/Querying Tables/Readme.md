@@ -49,4 +49,6 @@ This statement gets all the first names who were born between 2019 and 2020. <br
 
 `LIKE` and `ALIKE` commands can be used to search using wildcards.
 
+SELECT * FROM person WHERE first_name ILIKE '%oe';
+
 
