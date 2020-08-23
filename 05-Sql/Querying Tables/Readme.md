@@ -17,7 +17,7 @@ The order by is case-sensitive in nature i.e a != A , so at times sort doesn't w
 
 # SELECT command with WHERE clause and conditions
 
-Many times you come across a table with 100's or 
+Many times you come across a table with 1000's of records or more 
 
 
 
