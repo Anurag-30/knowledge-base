@@ -12,7 +12,7 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 The order by is case-sensitive in nature i.e a != A , so at times sort doesn't work as expected. You can convert all the values to `LOWER` or `UPPER` to maintain consistency. <br />
 
-`SELECT first_name FROM 
+`SELECT first_name FROM person ORDER BY LOWER()
 
 
 
