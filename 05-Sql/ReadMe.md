@@ -87,4 +87,4 @@ You can add records into the table by using `INSERT` command. <br />
     date_of_birth,
     email
 )
-VAL
+VALUES ('')
