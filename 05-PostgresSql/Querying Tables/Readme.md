@@ -58,5 +58,5 @@ This statement returns all the name that ends with oe.
 
 `SELECT birth_by_country , COUNT(*) FROM person GROUP BY birth_by_country;` <br />
 
-The above query gets the list of all the countries and prints the number of people from the country. G
+The above query gets the list of all the countries and prints the number of people from the country. GROUP BY is a powerful command 
 
