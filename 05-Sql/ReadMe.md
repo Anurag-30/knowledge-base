@@ -53,6 +53,6 @@ You can read more about different data type available --> https://www.postgresql
 
 You can delete a table the same way we did for a database using `DROP` command <br />
 
-`
+`DROP TABLE <Table >
 
 
