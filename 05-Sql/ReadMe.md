@@ -37,4 +37,7 @@ A table consists of 3 things column + type of the data + constraints (optional) 
 
 ## Creating A Table Without Constraints
 
-` CREATE TABLE 
+` CREATE TABLE person (
+    id int;
+    
+)
