@@ -77,12 +77,11 @@ You can have only one primary key (unique and is not null) for a table.  <br />
 
 You can add records into the table by using `INSERT` command. <br />
 
- INSERT INTO table_name (
+`INSERT INTO table_name (
     column name
-)Values ('values')` 
+)Values ('values')`
 
 `INSERT INTO person (
-
     first_name,
     last_name,
     gender,
