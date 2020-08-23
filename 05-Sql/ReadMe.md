@@ -51,6 +51,6 @@ You can read more about different data type available --> https://www.postgresql
 
 ## Delete A Table 
 
-
+You can delete a table the same way we did for a database using `
 
 
