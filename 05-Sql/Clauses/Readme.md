@@ -8,7 +8,7 @@ So far we have been doing a `SELECT * FROM <Table Name>` to get all the records 
 
 2. Sorting the ourput using `ORDER BY`. By default the behaviour of `ORDER BY` is that it gives the output in Ascending order, you can specify it to use descending order explicitly. <br />
 
-`SELECT * FROM <table_name > 
+`SELECT * FROM <table_name> ORDER BY 
 
 
 
