@@ -34,3 +34,5 @@ A table consists of 3 things column + type of the data + constraints (optional) 
 ` CREATE TABLE table_name (
     column_name + datatype + constraints if any
 );`
+
+##
