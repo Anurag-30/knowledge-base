@@ -4,7 +4,7 @@
 
 A database is a place where you can store, manipulate and delete the data. The data is stored in the form of tables in case of RDBMS.
 
-## Connecting to the Postgres using psql
+## Connecting to the Postgres using psql client
 
 `psql -h <psql server address> -p <port> -U <Valid user to connect>`
 
@@ -35,4 +35,4 @@ A table consists of 3 things column + type of the data + constraints (optional) 
     column_name + datatype + constraints if any
 );`
 
-##
+## Creating A Table Without 
