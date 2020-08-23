@@ -11,7 +11,7 @@ A database is a place where you can store, manipulate and delete the data. The d
 `\l` --> lists all the databases in the server <br />
 `\c` --> connecting to a specific database <br />
 `\d` --> list all the tables in a database <br />
-
+`\d <table-name>
 ## Create A database
 
 `CREATE DATABASE <name of the database>;`
