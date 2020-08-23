@@ -51,4 +51,6 @@ This statement gets all the first names who were born between 2019 and 2020. <br
 
 `SELECT * FROM person WHERE first_name ILIKE '%oe';` <br />
 
+This statement returns all the name 
+
 
