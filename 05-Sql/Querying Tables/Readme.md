@@ -25,7 +25,7 @@ The above query can be used to retrieve all the first names from the table `pers
 
 # LIMIT and OFFSET
 
-`SELECT * FROM person LIMT
+`SELECT * FROM person LIMIT 15;`
 
 If you want to limit the number of records that you want to have we can use the `LIMIT`. <br />
 
