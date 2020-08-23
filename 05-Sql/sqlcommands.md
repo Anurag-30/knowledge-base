@@ -26,3 +26,4 @@ It can be in caps or the small letters but is usually considered as a best pract
 It is a dangerous command and has to be used with caution as it deletes the database and all its contents.
 
 `DROP DATABASE test;`
+
