@@ -40,7 +40,7 @@ You can read more about different data type available [ here ] (https://www.post
 ## Creating A Table Without Constraints
 
 `CREATE TABLE person (           <br />
-    id             uuid,         <br />
+    id             UUID,         <br />
     first_name     VARCHAR(50),  <br />
     last_name      VARCHAR(50),  <br />
     gender         CHAR(10),     <br />
