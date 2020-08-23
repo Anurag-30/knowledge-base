@@ -31,11 +31,11 @@ It is a dangerous command and has to be used with caution as it deletes the data
 
 A table consists of 3 things column + type of the data + constraints (optional) <br />
 
-` CREATE TABLE table_name (
+` CREATE TABLE table_name ( 
     column_name + datatype + constraints if any
 );`
 
-You can read more about 
+You can read more about different data type available here
 
 ## Creating A Table Without Constraints
 
