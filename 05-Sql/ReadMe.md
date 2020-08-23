@@ -29,5 +29,5 @@ It is a dangerous command and has to be used with caution as it deletes the data
 
 ## Create A Table
 
-A table consists of 3 things 
+A table consists of 3 things column + 
 
