@@ -40,10 +40,10 @@ You can read more about different data type available [ here ] (https://www.post
 ## Creating A Table Without Constraints
 
 ` CREATE TABLE person ( 
-    id int, 
-    first_name VARCHAR(50),
-    last_name  VARCHAR(50),
-    gender     CHAR(10),
-    
+    id             int, 
+    first_name     VARCHAR(50),
+    last_name      VARCHAR(50),
+    gender         CHAR(10),
+    date_of_birth
 
 ) <br />
