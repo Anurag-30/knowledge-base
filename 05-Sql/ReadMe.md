@@ -66,7 +66,8 @@ You can have only one primary key (unique and is not null) for a table.
     first_name      VARCHAR(50) NOT NULL,
     last_name       VARCHAR(50) NOT NULL,
     gender          CHAR(10)    NOT NULL,
-    date_of_birth   DATE        
+    date_of_birth   DATE        NOT NULL,
+    email           VARCHAR
 )
 
 
