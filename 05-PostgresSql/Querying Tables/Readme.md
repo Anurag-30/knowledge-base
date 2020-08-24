@@ -54,7 +54,7 @@ This statement gets all the first names who were born between 2019 and 2020. <br
 This statement returns all the name that ends with oe.
 
 
-## GROUP BY , 
+## GROUP BY , GROUP BY HAVING
 
 `SELECT birth_by_country , COUNT(*) FROM person GROUP BY birth_by_country;` <br />
 
