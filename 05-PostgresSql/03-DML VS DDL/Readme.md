@@ -36,6 +36,8 @@ UPDATE --> As Name suggests it is used to update any record inside the table. <b
 
 DELETE --> used to delete the records.
 
-`DELETE 
+`DELETE FROM person WHERE personal_id=1;`
+
+
 
 
