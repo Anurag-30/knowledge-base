@@ -2,4 +2,4 @@
 
 CREATE --> used to create database or a table <br />
 
-`CREATE DATABASE test;`
+`CREATE DATABASE test;` <br />
