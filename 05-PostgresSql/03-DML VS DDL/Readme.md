@@ -16,4 +16,4 @@ DROP --> used to delete a table or a database <br />
 
 `DROP TABLE test;`    <br />
 
-ALTER --> This is used to change the columns 
+ALTER --> This is used to change the columns types, add/remove constraints <br />
