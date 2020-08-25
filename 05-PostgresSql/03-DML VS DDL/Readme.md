@@ -22,5 +22,5 @@ ALTER --> This is used to change the columns types, add/remove constraints <br /
 
 RENAME --> It is used along with ALTER to change the DB name or the column name inside a table. <br />
 
-`ALTER TABLE person ALTER COLUMN RENAME 
+`ALTER TABLE person ALTER COLUMN RENAME id to personal_id;`
 
