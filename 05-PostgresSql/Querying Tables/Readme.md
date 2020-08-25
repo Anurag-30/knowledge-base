@@ -67,4 +67,4 @@ Aggregate functions are helpful to do computations on the columns like AVG,SUM,C
 
 `SELECT AVG(income) FROM employee;`
 
-## COALENCE
+## COALESCE
