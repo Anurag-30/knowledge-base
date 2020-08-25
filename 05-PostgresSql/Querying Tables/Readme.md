@@ -67,7 +67,7 @@ Aggregate functions are helpful to do computations on the columns like AVG,SUM,C
 
 `SELECT AVG(income) FROM employee;`
 
-## COALESCE , NULLIF
+## COALESCE , NOW
 
 If you want to replace an empty feild with a certain value you can use `COALESCE` command. The below statement replaces all the null's in email to email not provided <br />
 
