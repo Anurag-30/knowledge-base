@@ -58,11 +58,11 @@ This statement returns all the name that ends with oe.
 
 `SELECT birth_by_country , COUNT(*) FROM person GROUP BY birth_by_country;` <br />
 
-The above query gets the list of all the countries and prints the number of people from the country. GROUP BY is a powerful command which allows you to show the statastics of your data.
+The above query gets the list of all the countries and prints the number of people from the country. GROUP BY is a powerful command which allows you to show the statastics of your data. <br />
 
 
 ## Aggregate Functions
 
-Aggregate functions are helpful to do computations on the columns like AVG,SUM,COUNT,MIN,MAX etc
+Aggregate functions are helpful to do computations on the columns like AVG,SUM,COUNT,MIN,MAX etc <br />
 
-`
+`SELECT 
