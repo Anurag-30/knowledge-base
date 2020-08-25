@@ -1,1 +1,1 @@
-`DDL` stands for 
+`DDL` stands for Data Definition Language where it only care about t
