@@ -26,5 +26,6 @@ RENAME --> It is used along with ALTER to change the DB name or the column name 
 
 `DML` stands for Data Manipulation Langauge where it directly deals with actual data inside the tables. INSERT , UPDATE and DELETE falls under DML. <br />
 
-INSERT --> used to inse
+INSERT --> used to insert a new record into the database.
+
 
