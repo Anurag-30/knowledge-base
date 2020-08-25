@@ -38,6 +38,6 @@ DELETE --> used to delete the records.
 
 `DELETE FROM person WHERE personal_id=1;`
 
-#### `Be Very cautious while using DELETE and UPDATE and never use it without WHERE clause as it updates or deletes all the records.`
+##### `Be Very cautious while using DELETE and UPDATE and never use it without WHERE clause as it updates or deletes all the records.`
 
 
