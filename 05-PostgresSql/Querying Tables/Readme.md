@@ -69,4 +69,5 @@ Aggregate functions are helpful to do computations on the columns like AVG,SUM,C
 
 ## COALESCE , NULL IF
 
-If you want to replace a certain feild with a value you can use `
+If you want to replace a certain feild with a value you can use `COALESCE` command. <br />
+
