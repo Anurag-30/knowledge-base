@@ -30,8 +30,10 @@ INSERT --> used to insert a new record into the database.
 
 `insert into person (id, first_name, last_name, email, gender, country_of_birth) values (1, 'Gabi', 'Catherick', 'gcatherick0@studiopress.com', 'Male', 'Indonesia');` <br />
 
-UPDATE --> As Name suggests it is used to update any record inside the table.
+UPDATE --> As Name suggests it is used to update any record inside the table. <br />
 
-`UPDATE person set email = 'test@gmail.com' WHERE personal_id=1;
+`UPDATE person set email = 'test@gmail.com' WHERE personal_id=1;` <br />
+
+
 
 
