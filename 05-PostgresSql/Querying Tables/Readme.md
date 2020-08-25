@@ -63,4 +63,4 @@ The above query gets the list of all the countries and prints the number of peop
 
 ## Aggregate Functions
 
-Aggregate functions are helpful to 
+Aggregate functions are helpful to do computations on the columns like AVG,SUM,
