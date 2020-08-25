@@ -10,4 +10,4 @@ CREATE --> used to create database or a table <br />
     last_name    VARCHAR(50)
 );`                       <br />
 
-DROP --> 
+DROP --> used to delete a table or a database <br />
