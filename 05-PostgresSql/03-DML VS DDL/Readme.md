@@ -38,6 +38,6 @@ DELETE --> used to delete the records.
 
 `DELETE FROM person WHERE personal_id=1;`
 
-
+###
 
 
