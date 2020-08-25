@@ -69,6 +69,6 @@ Aggregate functions are helpful to do computations on the columns like AVG,SUM,C
 
 ## COALESCE , NULL IF
 
-If you want to replace an empty feild with a certain value you can use `COALESCE` command. <br />
+If you want to replace an empty feild with a certain value you can use `COALESCE` command. The below  <br />
 
-`SELECT COALESCE(email,'email not provided') from person;` <br/>
+`SELECT COALESCE(email,'email not provided') from person;` <br />
