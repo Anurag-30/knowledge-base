@@ -6,5 +6,5 @@ CREATE --> used to create database or a table <br />
 `CREATE TABLE test (
     id BIGSERIAL PRIMARY KEY,
     first_name   VARCHAR(50),
-    last
-)
+    last_name    VARCHAR(50)
+);`
