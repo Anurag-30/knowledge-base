@@ -28,4 +28,6 @@ RENAME --> It is used along with ALTER to change the DB name or the column name 
 
 INSERT --> used to insert a new record into the database.
 
+`insert into person (id, first_name, last_name, email, gender, country_of_birth) values (1, 'Gabi', 'Catherick', 'gcatherick0@studiopress.com', 'Male', 'Indonesia');` <>
+
 
