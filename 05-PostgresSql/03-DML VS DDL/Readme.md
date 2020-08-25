@@ -11,3 +11,5 @@ CREATE --> used to create database or a table <br />
 );`                       <br />
 
 DROP --> used to delete a table or a database <br />
+
+`DROP 
