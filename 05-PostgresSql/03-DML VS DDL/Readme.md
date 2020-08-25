@@ -24,5 +24,5 @@ RENAME --> It is used along with ALTER to change the DB name or the column name 
 
 `ALTER TABLE person  RENAME COLUMN id to personal_id;` <br />
 
-
+`DML` 
 
