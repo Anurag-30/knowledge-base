@@ -73,5 +73,5 @@ If you want to replace an empty feild with a certain value you can use `COALESCE
 
 `SELECT COALESCE(email,'email not provided') from person;` <br />
 
-NOW
+NOW can be used to get the timestamp <br />
 
