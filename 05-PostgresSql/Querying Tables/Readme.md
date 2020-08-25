@@ -61,4 +61,6 @@ This statement returns all the name that ends with oe.
 The above query gets the list of all the countries and prints the number of people from the country. GROUP BY is a powerful command which allows you to show the statastics of your data.
 
 
-## A
+## Aggregate Functions
+
+Aggregate functions are helpful to 
