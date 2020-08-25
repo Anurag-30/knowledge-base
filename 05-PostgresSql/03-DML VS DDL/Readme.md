@@ -34,6 +34,8 @@ UPDATE --> As Name suggests it is used to update any record inside the table. <b
 
 `UPDATE person set email = 'test@gmail.com' WHERE personal_id=1;` <br />
 
+DELETE --> used to delete the records.
 
+`
 
 
