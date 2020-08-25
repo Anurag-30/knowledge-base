@@ -4,5 +4,6 @@ CREATE --> used to create database or a table <br />
 
 `CREATE DATABASE test;` <br />
 `CREATE TABLE test (
-    id 
+    id BIGSERIAL PRIMARY KEY,
+    
 )
