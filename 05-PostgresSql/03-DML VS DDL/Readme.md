@@ -14,3 +14,4 @@ DROP --> used to delete a table or a database <br />
 
 `DROP DATABASE test;` <br />
 
+`DROP TABLE test
