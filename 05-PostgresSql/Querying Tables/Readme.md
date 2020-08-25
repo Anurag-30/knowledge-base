@@ -75,5 +75,5 @@ If you want to replace an empty feild with a certain value you can use `COALESCE
 
 NOW can be used to get the timestamp <br />
 
-SELECT NOW
+SELECT NOW()::DATE();
 
