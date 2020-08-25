@@ -71,4 +71,4 @@ Aggregate functions are helpful to do computations on the columns like AVG,SUM,C
 
 If you want to replace an empty feild with a certain value you can use `COALESCE` command. <br />
 
-`SELECT COALESCE(email,)
+`SELECT COALESCE(email,'email not provided')
