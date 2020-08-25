@@ -18,7 +18,9 @@ DROP --> used to delete a table or a database <br />
 
 ALTER --> This is used to change the columns types, add/remove constraints <br />
 
-`ALTER TABLE person ALTER COLUMN id DROP  NOT NULL ;`
+`ALTER TABLE person ALTER COLUMN id DROP  NOT NULL ;` <br />
 
-RENAME --> It is used along with ALTER to change the DB name or the column name inside a table.
+RENAME --> It is used along with ALTER to change the DB name or the column name inside a table. <br />
+
+`ALTER TABLE 
 
