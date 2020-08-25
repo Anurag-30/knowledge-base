@@ -18,4 +18,5 @@ DROP --> used to delete a table or a database <br />
 
 ALTER --> This is used to change the columns types, add/remove constraints <br />
 
-`ALTER TABLE person ALTER COLUMN id DROP  NOT NULL ;t
+`ALTER TABLE person ALTER COLUMN id DROP  NOT NULL ;`
+
