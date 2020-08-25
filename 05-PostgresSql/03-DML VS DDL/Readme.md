@@ -16,4 +16,4 @@ DROP --> used to delete a table or a database <br />
 
 `DROP TABLE test;`    <br />
 
-ALTER 
+ALTER --> 
