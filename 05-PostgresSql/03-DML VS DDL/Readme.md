@@ -9,3 +9,5 @@ CREATE --> used to create database or a table <br />
     first_name   VARCHAR(50),
     last_name    VARCHAR(50)
 );`                       <br />
+
+DROP --> 
