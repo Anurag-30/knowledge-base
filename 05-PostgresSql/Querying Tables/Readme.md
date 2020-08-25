@@ -73,3 +73,5 @@ If you want to replace an empty feild with a certain value you can use `COALESCE
 
 `SELECT COALESCE(email,'email not provided') from person;` <br />
 
+NOW
+
