@@ -22,11 +22,11 @@ Consider the structure of the following two tables.
 ## ORDERS table
 
 `CREATE TABLE ORDERS (
-   ID          INT        NOT NULL,
+   ID          INT        PRIMARY KEY,
    DATE        DATETIME, 
    CUSTOMER_ID INT references CUSTOMERS(ID),
    AMOUNT     double,
-   PRIMARY KEY (ID)
+    
 );`  <br />
 
 If the ORDERS table has already been created and the foreign key has not yet been set, the use the syntax for specifying a foreign key by altering a table. <br />
