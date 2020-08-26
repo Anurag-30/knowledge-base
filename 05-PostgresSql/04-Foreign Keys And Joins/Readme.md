@@ -9,20 +9,19 @@ If a table has a primary key defined on any field(s), then you cannot have two r
 Example: <br />
 Consider the structure of the following two tables.
 
-`CUSTOMERS table
+## CUSTOMERS table
 
-CREATE TABLE CUSTOMERS(
+`CREATE TABLE CUSTOMERS(
    ID   INT              PRIMARY KEY,
    NAME VARCHAR (20)     NOT NULL,
    AGE  INT              NOT NULL,
    ADDRESS  CHAR (25) ,
-   SALARY   DECIMAL (18, 2),       
-   
+   SALARY   DECIMAL (18, 2),         
 );`  <br />
 
-`ORDERS table
+## ORDERS table
 
-CREATE TABLE ORDERS (
+`CREATE TABLE ORDERS (
    ID          INT        NOT NULL,
    DATE        DATETIME, 
    CUSTOMER_ID INT references CUSTOMERS(ID),
