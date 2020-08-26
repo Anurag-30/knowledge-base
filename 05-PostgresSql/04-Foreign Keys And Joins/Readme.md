@@ -37,7 +37,7 @@ If the ORDERS table has already been created and the foreign key has not yet bee
 
 ## DROP a FOREIGN KEY Constraint
 
-To drop a FOREIGN KEY constraint, use the following SQL syntax. <>
+To drop a FOREIGN KEY constraint, use the following SQL syntax. <br />
 
-ALTER TABLE ORDERS
-   DROP FOREIGN KEY;
+`ALTER TABLE ORDERS
+   DROP FOREIGN KEY;`
