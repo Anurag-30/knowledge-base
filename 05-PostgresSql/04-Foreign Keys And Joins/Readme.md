@@ -28,7 +28,7 @@ CREATE TABLE ORDERS (
    CUSTOMER_ID INT references CUSTOMERS(ID),
    AMOUNT     double,
    PRIMARY KEY (ID)
-);` <br />
+);`  <br />
 
 If the ORDERS table has already been created and the foreign key has not yet been set, the use the syntax for specifying a foreign key by altering a table. <br />
 
