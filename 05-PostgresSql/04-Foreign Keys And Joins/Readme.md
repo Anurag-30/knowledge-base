@@ -1,10 +1,10 @@
 A foreign key is a key used to link two tables together. This is sometimes also called as a referencing key. <br />
 
-A Foreign Key is a column or a combination of columns whose values match a Primary Key in a different table.
+A Foreign Key is a column or a combination of columns whose values match a Primary Key in a different table. <br />
 
-The relationship between 2 tables matches the Primary Key in one of the tables with a Foreign Key in the second table.
+The relationship between 2 tables matches the Primary Key in one of the tables with a Foreign Key in the second table. <br />
 
-If a table has a primary key defined on any field(s), then you cannot have two records having the same value of that field(s).
+If a table has a primary key defined on any field(s), then you cannot have two records having the same value of that field(s). <br />
 
 Example
 Consider the structure of the following two tables.
