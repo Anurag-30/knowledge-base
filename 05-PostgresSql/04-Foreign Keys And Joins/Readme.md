@@ -16,7 +16,7 @@ Consider the structure of the following two tables.
    NAME VARCHAR (20)     NOT NULL,
    AGE  INT              NOT NULL,
    ADDRESS  CHAR (25) ,
-   SALARY   DECIMAL (18, 2),         
+   SALARY   DECIMAL (18, 2)        
 );`  <br />
 
 ## ORDERS table
@@ -25,8 +25,7 @@ Consider the structure of the following two tables.
    ID          INT        PRIMARY KEY,
    DATE        DATETIME, 
    CUSTOMER_ID INT references CUSTOMERS(ID),
-   AMOUNT     double,
-    
+   AMOUNT     double  
 );`  <br />
 
 If the ORDERS table has already been created and the foreign key has not yet been set, the use the syntax for specifying a foreign key by altering a table. <br />
