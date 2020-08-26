@@ -33,10 +33,11 @@ CREATE TABLE ORDERS (
 If the ORDERS table has already been created and the foreign key has not yet been set, the use the syntax for specifying a foreign key by altering a table. <br />
 
 `ALTER TABLE ORDERS 
-   ADD FOREIGN KEY (Customer_ID) REFERENCES CUSTOMERS (ID);`
-   
-DROP a FOREIGN KEY Constraint
-To drop a FOREIGN KEY constraint, use the following SQL syntax.
+   ADD FOREIGN KEY (Customer_ID) REFERENCES CUSTOMERS (ID);` <br />
+
+## DROP a FOREIGN KEY Constraint
+
+To drop a FOREIGN KEY constraint, use the following SQL syntax. <>
 
 ALTER TABLE ORDERS
    DROP FOREIGN KEY;
