@@ -6,10 +6,10 @@ The relationship between 2 tables matches the Primary Key in one of the tables w
 
 If a table has a primary key defined on any field(s), then you cannot have two records having the same value of that field(s). <br />
 
-Example
+Example: <br />
 Consider the structure of the following two tables.
 
-CUSTOMERS table
+`CUSTOMERS table
 
 CREATE TABLE CUSTOMERS(
    ID   INT              PRIMARY KEY,
@@ -18,7 +18,8 @@ CREATE TABLE CUSTOMERS(
    ADDRESS  CHAR (25) ,
    SALARY   DECIMAL (18, 2),       
    
-);
+);`
+
 ORDERS table
 
 CREATE TABLE ORDERS (
