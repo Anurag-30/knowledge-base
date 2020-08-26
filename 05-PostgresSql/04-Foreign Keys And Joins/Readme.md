@@ -1,4 +1,4 @@
-A foreign key is a key used to link two tables together. This is sometimes also called as a referencing key.
+A foreign key is a key used to link two tables together. This is sometimes also called as a referencing key. <br />
 
 A Foreign Key is a column or a combination of columns whose values match a Primary Key in a different table.
 
@@ -12,7 +12,7 @@ Consider the structure of the following two tables.
 CUSTOMERS table
 
 CREATE TABLE CUSTOMERS(
-   ID   INT              NOT NULL,
+   ID   INT              PRIMARY KEY,
    NAME VARCHAR (20)     NOT NULL,
    AGE  INT              NOT NULL,
    ADDRESS  CHAR (25) ,
