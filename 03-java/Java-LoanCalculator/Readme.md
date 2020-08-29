@@ -3,7 +3,7 @@
 You can Run the program by following the given steps: <br />
 
 ```
-1. Do A Gradle Build using the gradle wrapper 
+1. Do A Gradle Build using the gradle wrapper.
 
 ./grdlew clean build
 
